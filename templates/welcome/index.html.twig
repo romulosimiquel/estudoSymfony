@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rapaz, que coisa doida, a rota é passada no comentário</title>
+    </head>
+    <body>
+        <h1>Bom dia {{ user }} </h1>
+
+        Suas previsões de hoje: 
+        <pre>
+            {% for key, dado in array %}
+                {{ key }} -> {{ dado.dia }}
+                          -> {{ dado.local }}
+                          -> {{ dado.horas }}
+            {% endfor %}
+        </pre>
+    </body>
+</html>   
