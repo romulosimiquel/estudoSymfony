@@ -1,4 +1,5 @@
 {
+    "name": "test-first-package-woow",
     "type": "project",
     "license": "proprietary",
     "require": {
